@@ -9,6 +9,7 @@
 
 .btn-primary {
     height: 64px;
+    width: 200px;
     border: 0px;
     border-radius: 5px;
     font-weight: 700;
@@ -16,8 +17,18 @@
     background: #FD6E0A;
     padding: 18px 35px;
 }
+a{
+    text-decoration: none;
+}
 
 /* header and nav style */
+.header{
+    padding-top: 10px;
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,7 +46,6 @@ ul li {
 }
 
 nav a {
-    text-decoration: none;
     color: #474747;
 }
 
@@ -43,7 +53,8 @@ nav a {
 .header-banner {
     display: flex;
     align-items: center;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 50px 0px 200px;
+    justify-content: space-between;
 }
 
 .banner-subtitle {
@@ -64,3 +75,15 @@ nav a {
     color: #757575;
     margin-bottom: 30px;
 }
+.btn-second{
+    height: 64px;
+    width: 160px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 24px;
+    margin-left: 30px;
+
+}
+
